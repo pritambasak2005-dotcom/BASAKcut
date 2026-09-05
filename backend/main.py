@@ -9,8 +9,9 @@ app = FastAPI(title="BASAKcut API", description="AI Background Remover API using
 
 # Configure CORS
 origins = [
-    "http://localhost:5173",
+   "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://pritambasak2005-dotcom.github.io",
 ]
 
 app.add_middleware(
