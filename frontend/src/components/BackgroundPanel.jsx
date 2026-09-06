@@ -219,7 +219,7 @@ const BackgroundPanel = ({
       formData.append('foreground', fgBlob, 'foreground.png');
       formData.append('background', file, file.name);
 
-      const res = await fetch('https://basakcut9.onrender.com', {
+      const res = await fetch('https://basakcut9.onrender.com/apply-background', {
         method: 'POST',
         body: formData,
       });
