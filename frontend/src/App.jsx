@@ -35,7 +35,7 @@ function App() {
     }, 500);
 
     try {
-      const response = await fetch('https://basakcut.onrender.com/remove-background', {
+      const response = await fetch('https://basakcut9.onrender.com/remove-background', {
         method: 'POST',
         body: formData,
       });
