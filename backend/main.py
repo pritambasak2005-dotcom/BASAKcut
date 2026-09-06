@@ -12,7 +12,7 @@ origins = [
    "http://localhost:5173",
     "http://127.0.0.1:5173",
     "https://pritambasak2005-dotcom.github.io",
-   "https://basakcut.netlify.app/",
+   "https://basakcut9.netlify.app/",
 ]
 
 app.add_middleware(
